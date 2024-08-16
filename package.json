@@ -1,0 +1,39 @@
+{
+  "name": "abyss-codex-familiar",
+  "displayName": "AbySS Codex Familiar",
+  "description": "Custom syntax highlighting for the AbySS programming language.",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liebe-magi/abyss-codex-familiar.git"
+  },
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "icon": "img/logo_256.png",
+  "contributes": {
+    "languages": [
+      {
+        "id": "abyss",
+        "aliases": [
+          "AbySS",
+          "abyss"
+        ],
+        "extensions": [
+          ".aby"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "abyss",
+        "scopeName": "source.abyss",
+        "path": "./syntaxes/abyss.tmLanguage.json"
+      }
+    ]
+  }
+}
