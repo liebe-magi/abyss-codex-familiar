@@ -4,6 +4,9 @@
 	"scopeName": "source.abyss",
 	"patterns": [
 		{
+			"include": "#comments"
+		},
+		{
 			"include": "#keywords"
 		},
 		{
@@ -29,11 +32,24 @@
 		}
 	],
 	"repository": {
+		"comments": {
+			"patterns": [
+				{
+					"name": "comment.line.double-slash.abyss",
+					"match": "//.*$"
+				},
+				{
+					"name": "comment.block.abyss",
+					"begin": "/\\*",
+					"end": "\\*/"
+				}
+			]
+		},
 		"keywords": {
 			"patterns": [
 				{
 					"name": "keyword.control.abyss",
-					"match": "\\b(forge|unveil|trans)\\b"
+					"match": "\\b(forge|unveil|trans|oracle|engrave|morph)\\b"
 				}
 			]
 		},
@@ -41,7 +57,7 @@
 			"patterns": [
 				{
 					"name": "storage.type.abyss",
-					"match": "\\b(omen|aether|arcana|rune)\\b"
+					"match": "\\b(omen|aether|arcana|rune|abyss)\\b"
 				}
 			]
 		},
@@ -65,7 +81,7 @@
 			"patterns": [
 				{
 					"name": "keyword.operator.abyss",
-					"match": "\\+|\\-|\\*|\\/|\\^|\\*\\*|\\bas\\b"
+					"match": "\\+|\\-|\\*|\\/|\\^|\\*\\*|%|\\bas\\b|==|!=|<=|>=|<|>|\\+=|\\-=|\\*=|\\/=|%=|\\^=|\\*\\*="
 				}
 			]
 		},
