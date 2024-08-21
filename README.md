@@ -2,19 +2,20 @@
 
 ![logo](/img/logo_256.png)
 
-AbySS Codex Familiar provides custom syntax highlighting for the AbySS programming language.
+AbySS Codex Familiar is a Visual Studio Code extension that provides custom support for the [AbySS programming language](https://github.com/liebe-magi/AbySS), including syntax highlighting, code snippets, and basic code completion.
 
 ## Features
 
-- Syntax highlighting for AbySS keywords, types, constants, and operators.
-- Support for string literals, numeric values, and identifiers.
-- Custom folding markers using `#region` and `#endregion`.
+- **Syntax Highlighting**: Full support for AbySS keywords, types, constants, operators, and more.
+- **Code Snippets**: Handy snippets for common constructs like `forge`, `unveil`, `oracle`, `orbit`, and more.
+- **Code Completion**: Auto-complete support for AbySS keywords to streamline coding.
+- **Custom Folding Markers**: Utilize `// #region` and `// #endregion` to create collapsible code regions.
 
 ## How to Use
 
 1. Install the extension in Visual Studio Code.
-2. Open any `.aby` file to start using the custom syntax highlighting.
-3. Enjoy a mystical coding experience with AbySS!
+2. Open any `.aby` file to start using the features of AbySS Codex Familiar, including syntax highlighting, snippets, and code completion.
+3. Enjoy a streamlined and enhanced coding experience with AbySS!
 
 ## Requirements
 
@@ -28,5 +29,6 @@ None at the moment. Please report any issues via GitHub.
 
 ### 0.0.1
 
-- Initial release of AbySS Codex Familiar.
-
+- Initial release of AbySS Codex Familiar with syntax highlighting and folding markers.
+- Added code snippets for common AbySS constructs.
+- Introduced basic keyword completion for faster coding.

@@ -3,6 +3,7 @@
   "displayName": "AbySS Codex Familiar",
   "description": "Custom syntax highlighting for the AbySS programming language.",
   "version": "0.0.1",
+  "publisher": "liebe-magi",
   "repository": {
     "type": "git",
     "url": "https://github.com/liebe-magi/abyss-codex-familiar.git"
@@ -51,7 +52,7 @@
   },
   "devDependencies": {
     "@types/vscode": "^1.92.0",
-    "typescript": "^5.5.4",
-    "vsce": "^2.15.0"
+    "@vscode/vsce": "^3.0.0",
+    "typescript": "^5.5.4"
   }
 }
