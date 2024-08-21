@@ -49,7 +49,7 @@
 			"patterns": [
 				{
 					"name": "keyword.control.abyss",
-					"match": "\\b(forge|unveil|trans|oracle|engrave|morph|orbit|resume|eject)\\b"
+					"match": "\\b(forge|unveil|oracle|trans|orbit|resume|eject|reveal|morph)\\b"
 				}
 			]
 		},

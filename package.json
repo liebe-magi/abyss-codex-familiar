@@ -14,6 +14,13 @@
     "Programming Languages"
   ],
   "icon": "img/logo_256.png",
+  "scripts": {
+    "compile": "tsc -p .",
+    "package": "yarn compile && vsce package",
+    "publish": "yarn compile && vsce publish"
+  },
+  "main": "./out/extension.js",
+  "activationEvents": [],
   "contributes": {
     "languages": [
       {
@@ -34,6 +41,17 @@
         "scopeName": "source.abyss",
         "path": "./syntaxes/abyss.tmLanguage.json"
       }
+    ],
+    "snippets": [
+      {
+        "language": "abyss",
+        "path": "./snippets/abyss.json"
+      }
     ]
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.92.0",
+    "typescript": "^5.5.4",
+    "vsce": "^2.15.0"
   }
 }

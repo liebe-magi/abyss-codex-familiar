@@ -1,0 +1,63 @@
+{
+    "Forge Variable": {
+        "prefix": "forge",
+        "body": [
+            "forge ${1:varName}: ${2:type} = ${3:value};"
+        ],
+        "description": "Declare a new variable using forge."
+    },
+    "Forge Morph Variable": {
+        "prefix": "forge morph",
+        "body": [
+            "forge morph ${1:varName}: ${2:type} = ${3:value};"
+        ],
+        "description": "Declare a new mutable variable using forge morph."
+    },
+    "Unveil Statement": {
+        "prefix": "unveil",
+        "body": [
+            "unveil(${1:value});"
+        ],
+        "description": "Print a value using unveil."
+    },
+    "Oracle Statement": {
+        "prefix": "oracle",
+        "body": [
+            "oracle${1: (condition)} {",
+            "\t(${2:pattern}) => ${3:action};",
+            "\t_ => ${4:defaultAction};",
+            "};"
+        ],
+        "description": "Define an oracle statement."
+    },
+    "Orbit Loop": {
+        "prefix": "orbit",
+        "body": [
+            "orbit(${1:params}) {",
+            "\t${2:body}",
+            "};"
+        ],
+        "description": "Create an orbit loop."
+    },
+    "Resume Flow": {
+        "prefix": "resume",
+        "body": [
+            "resume ${1:identifier};"
+        ],
+        "description": "Resume the loop from a specific point."
+    },
+    "Eject Flow": {
+        "prefix": "eject",
+        "body": [
+            "eject ${1:identifier};"
+        ],
+        "description": "Break the loop at a specific point."
+    },
+    "Reveal Expression": {
+        "prefix": "reveal",
+        "body": [
+            "reveal ${1:expression};"
+        ],
+        "description": "Reveal the value of an expression."
+    }
+}
