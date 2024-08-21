@@ -49,7 +49,7 @@
 			"patterns": [
 				{
 					"name": "keyword.control.abyss",
-					"match": "\\b(forge|unveil|trans|oracle|engrave|morph)\\b"
+					"match": "\\b(forge|unveil|trans|oracle|engrave|morph|orbit|resume|eject)\\b"
 				}
 			]
 		},
@@ -57,7 +57,7 @@
 			"patterns": [
 				{
 					"name": "storage.type.abyss",
-					"match": "\\b(omen|aether|arcana|rune|abyss)\\b"
+					"match": "\\b(omen|aether|arcana|rune)\\b"
 				}
 			]
 		},
@@ -81,7 +81,7 @@
 			"patterns": [
 				{
 					"name": "keyword.operator.abyss",
-					"match": "\\+|\\-|\\*|\\/|\\^|\\*\\*|%|\\bas\\b|==|!=|<=|>=|<|>|\\+=|\\-=|\\*=|\\/=|%=|\\^=|\\*\\*="
+					"match": "\\+|\\-|\\*|\\/|\\^|\\*\\*|%|\\bas\\b|==|!=|<=|>=|<|>|\\+=|\\-=|\\*=|\\/=|%=|\\^=|\\*\\*=|\\..|\\..="
 				}
 			]
 		},
