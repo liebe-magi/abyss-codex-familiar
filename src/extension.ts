@@ -12,7 +12,9 @@ export function activate(context: vscode.ExtensionContext) {
                 'resume',
                 'eject',
                 'reveal',
-                'morph'
+                'morph',
+                'engrave',
+                'summon'
             ];
             const completionItems = keywords.map(keyword => {
                 return new vscode.CompletionItem(keyword, vscode.CompletionItemKind.Keyword);

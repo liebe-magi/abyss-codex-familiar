@@ -33,8 +33,8 @@
     "Orbit Loop": {
         "prefix": "orbit",
         "body": [
-            "orbit(${1:params}) {",
-            "\t${2:body}",
+            "orbit(${1:identifier} = ${2:start}..${3:end}) {",
+            "\t${4:body}",
             "};"
         ],
         "description": "Create an orbit loop."
@@ -59,5 +59,21 @@
             "reveal ${1:expression};"
         ],
         "description": "Reveal the value of an expression."
+    },
+    "Engrave Function": {
+        "prefix": "engrave",
+        "body": [
+            "engrave ${1:functionName}(${2:params}) -> ${3:returnType} {",
+            "\t${4:body}",
+            "}"
+        ],
+        "description": "Define a new function using engrave."
+    },
+    "Summon Expression": {
+        "prefix": "summon",
+        "body": [
+            "summon(${1:stringValue}, ${2:type});"
+        ],
+        "description": "Summon input of a specific type."
     }
 }

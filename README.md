@@ -27,8 +27,15 @@ None at the moment. Please report any issues via GitHub.
 
 ## Release Notes
 
+### 0.0.2
+
+- Added new keywords: `engrave`, `summon`.
+- Expanded syntax highlighting to include the `abyss` type and boolean constants `boon`, `hex`.
+- Introduced new snippets for function definitions (`engrave`) and standard input (`summon`).
+- Updated auto-completion to support the new keywords `engrave` and `summon`.
+
 ### 0.0.1
 
-- Initial release of AbySS Codex Familiar with syntax highlighting and folding markers.
+- Initial release of `AbySS Codex Familiar` with syntax highlighting and folding markers.
 - Added code snippets for common AbySS constructs.
 - Introduced basic keyword completion for faster coding.
